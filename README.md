@@ -10,18 +10,18 @@ This is a Python project for our group activity.
   ```bash
   git clone https://github.com/ShahidHameed4/mlops-class-task01
 
-git branch dev
+git branch -b dev
 git add .
 git commit -m "dev branch update with base code"
 git push origin
 
-git branch test
+git branch -b test
 git checkout test
 git add .
 git commit -m "updated test branch"
 git push origin
 
-git checkout main
+git checkout -b main
 git add .
 git commit -m "updated main branch"
 git push origin
