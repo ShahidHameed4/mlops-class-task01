@@ -20,3 +20,8 @@ git checkout test
 git add .
 git commit -m "updated test branch"
 git push origin
+
+git checkout main
+git add .
+git commit -m "updated main branch"
+git push origin
